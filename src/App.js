@@ -1,5 +1,5 @@
-import './normal.css';
-import './App.css';
+import "./normal.css";
+import "./App.css";
 
 function App() {
   return (
@@ -11,11 +11,18 @@ function App() {
         </div>
       </aside>
       <section className="chatbox">
+        <div className="chat-log">
+          <div className="chat-message chatgpt">
+            <div className="chat-message-center">
+              <div className="avatar"></div>
+              <div className="message">Hello word</div>
+            </div>
+          </div>
+        </div>
         <div className="chat-input-holder">
-          <textarea rows="1" className="chat-input-textarea"  ></textarea>
+          <textarea rows="1" className="chat-input-textarea"></textarea>
         </div>
       </section>
-
     </div>
   );
 }
