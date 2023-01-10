@@ -9,6 +9,10 @@ function App() {
       user: "gpt",
       message: "How can I help you today?",
     },
+    {
+      user: "me",
+      message: "I want to use ChatGPT today",
+    },
   ]);
 
   async function handleSubmit(e) {
@@ -30,12 +34,7 @@ function App() {
           {chatLog.map((message, index) => (
             <ChatMessage key={index} message={message} />
           ))}
-          <div className="chat-message chatgpt">
-            <div className="chat-message-center">
-              <div className="avatar chatgpt"></div>
-              <div className="message">i am an AI</div>
-            </div>
-          </div>
+          
         </div>
         <div className="chat-input-holder">
           <form onSubmit={handleSubmit}>
