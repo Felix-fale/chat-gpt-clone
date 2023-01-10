@@ -44,6 +44,22 @@
   }
 }
 
+.chat-input-holder{
+  padding: 12px;
+  position: absolute;
+  
+}
+.chat-input-textarea{
+  background-color: #40414f;
+  width: 90%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 8px  0 rgba(0, 0, 0, 0.5);
+  font-size: 1.25em;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
